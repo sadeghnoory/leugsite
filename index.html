@@ -1,52 +1,100 @@
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="فرم ثبت نام در لیگ مجازی">
-  <meta name="theme-color" content="#0b1020">
-  <title>ثبت نام در لیگ مجازی</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="فرم ثبت نام در لیگ مجازی">
+    <meta name="theme-color" content="#0b1020">
+    <title>ثبت نام در لیگ مجازی</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <main class="wrap">
-    <section class="card">
-      <div class="mark" aria-hidden="true">✉</div>
 
-      <p class="eyebrow">ثبت نام در لیگ مجازی</p>
-      <h1>ثبت نام کن</h1>
-      <p class="intro">فرم زیر رو پر کن؛</p>
+    <main class="wrap">
 
-      <form action="https://formsubmit.co/f6ab9426211542dec75d5c03d6d932d5" method="POST">
+        <section class="card">
 
-        <input type="hidden" name="_subject" value="پیام جدید از وب‌سایت">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="true">
-        <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
+            <div class="mark" aria-hidden="true">✉</div>
 
-        <label for="name">نام و نام خانوادگی واقعی (فارسی)</label>
-        <input id="name" name="name" type="text" placeholder="نام شما" maxlength="80" autocomplete="name" required>
+            <p class="eyebrow">ثبت نام در لیگ مجازی</p>
 
-        <label for="nam">نام مستعار در لیگ (انگلیسی)</label>
-        <input id="nam" name="nickname" type="text" placeholder="نام مستعار" maxlength="80" required>
+            <h1>ثبت نام کن</h1>
 
-        <label for="phone">شماره تلفن همراه</label>
-        <input id="phone" name="phone" type="tel" inputmode="numeric" placeholder="شماره تلفن همراه" pattern="[0-9]{11}" maxlength="11" required>
+            <p class="intro">فرم زیر رو پر کن؛</p>
 
-        <label for="email">ایمیل</label>
-        <input id="email" name="email" type="email" placeholder="name@example.com" maxlength="254" autocomplete="email" required>
+            <form action="https://formsubmit.co/f6ab9426211542dec75d5c03d6d932d5" method="POST">
 
-        <label for="message">طرفدار چه تیمی هستید؟</label>
-        <textarea id="message" name="message" rows="5" placeholder="تیمت رو اینجا بنویس..." maxlength="3000" required></textarea>
+                <input type="hidden" name="_subject" value="پیام جدید از وب‌سایت">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="true">
+                <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
 
-        <button type="submit">
-          ارسال فرم
-          <span aria-hidden="true">←</span>
-        </button>
+                <label for="name">نام و نام خانوادگی واقعی (فارسی)</label>
+                <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="نام شما"
+                    maxlength="80"
+                    autocomplete="name"
+                    required
+                >
 
-      </form>
-    </section>
-  </main>
+                <label for="nam">نام مستعار در لیگ (انگلیسی)</label>
+                <input
+                    id="nam"
+                    name="nickname"
+                    type="text"
+                    placeholder="نام مستعار"
+                    maxlength="80"
+                    required
+                >
+
+                <label for="phone">شماره تلفن همراه</label>
+                <input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    inputmode="numeric"
+                    placeholder="شماره تلفن همراه"
+                    pattern="[0-9]{11}"
+                    maxlength="11"
+                    required
+                >
+
+                <label for="email">ایمیل</label>
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="name@example.com"
+                    maxlength="254"
+                    autocomplete="email"
+                    required
+                >
+
+                <label for="message">طرفدار چه تیمی هستید؟</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="تیمت رو اینجا بنویس..."
+                    maxlength="3000"
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    ارسال فرم
+                    <span aria-hidden="true">←</span>
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
 </body>
 </html>
