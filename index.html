@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="فرم تماس و ارسال پیام">
+  <title>فرم تماس با ما</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <div class="mark" aria-hidden="true">✉</div>
+      <p class="eyebrow">ثبت نام در لیگ مجازی</p>
+      <h1>ثبت نام کن</h1>
+      <p class="intro">فرم زیر رو پر کن؛</p>
+
+      <form action="https://formsubmit.co/f6ab9426211542dec75d5c03d6d932d5"
+      method="POST">
+        <input type="hidden" name="_subject" value="پیام جدید از وب‌سایت">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="true">
+        <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
+
+        <label for="name">نام و نام خانوادگی واقعی(فارسی)</label>
+        <input id="name" name="name" type="text" placeholder="نام شما" maxlength="80" required>
+
+        <label for="nam">نام مستعار در لیگ (انگلیسی)</label>
+        <input id="nam"name="nickname"type="text"placeholder="نام مستعار"maxlength="80"required>
+
+        <label for="email">ایمیل</label>
+        <input id="email" name="email" type="email" placeholder="name@example.com" maxlength="254" required>
+
+        <label for="message">طرفدار چه تیمی هستید؟</label>
+        <textarea id="message" name="message" rows="5" placeholder="تیمت رو اینجا بنویس..." maxlength="3000" required></textarea>
+
+        <button type="submit">ارسال فرم<span aria-hidden="true">←</span></button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
